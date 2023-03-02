@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCA1DA1A29B05D8A00D1026E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA1929B05D8A00D1026E /* AppDelegate.m */; };
+		CCA1DA1D29B05D8A00D1026E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA1C29B05D8A00D1026E /* SceneDelegate.m */; };
+		CCA1DA2029B05D8A00D1026E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA1F29B05D8A00D1026E /* ViewController.m */; };
+		CCA1DA2329B05D8A00D1026E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA1DA2129B05D8A00D1026E /* Main.storyboard */; };
+		CCA1DA2529B05D8A00D1026E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCA1DA2429B05D8A00D1026E /* Assets.xcassets */; };
+		CCA1DA2829B05D8A00D1026E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCA1DA2629B05D8A00D1026E /* LaunchScreen.storyboard */; };
+		CCA1DA2B29B05D8A00D1026E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA2A29B05D8A00D1026E /* main.m */; };
+		CCA1DA3329B05E6100D1026E /* DittoObjC in Frameworks */ = {isa = PBXBuildFile; productRef = CCA1DA3229B05E6100D1026E /* DittoObjC */; };
+		CCA1DA3529B05E6100D1026E /* DittoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CCA1DA3429B05E6100D1026E /* DittoSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CCA1DA1529B05D8A00D1026E /* example-swift-bridge-to-objectivec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-swift-bridge-to-objectivec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCA1DA1829B05D8A00D1026E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CCA1DA1929B05D8A00D1026E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CCA1DA1B29B05D8A00D1026E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CCA1DA1C29B05D8A00D1026E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CCA1DA1E29B05D8A00D1026E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CCA1DA1F29B05D8A00D1026E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CCA1DA2229B05D8A00D1026E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCA1DA2429B05D8A00D1026E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCA1DA2729B05D8A00D1026E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCA1DA2929B05D8A00D1026E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA1DA2A29B05D8A00D1026E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCA1DA1229B05D8A00D1026E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1DA3329B05E6100D1026E /* DittoObjC in Frameworks */,
+				CCA1DA3529B05E6100D1026E /* DittoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCA1DA0C29B05D8A00D1026E = {
+			isa = PBXGroup;
+			children = (
+				CCA1DA1729B05D8A00D1026E /* example-swift-bridge-to-objectivec */,
+				CCA1DA1629B05D8A00D1026E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCA1DA1629B05D8A00D1026E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1DA1529B05D8A00D1026E /* example-swift-bridge-to-objectivec.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCA1DA1729B05D8A00D1026E /* example-swift-bridge-to-objectivec */ = {
+			isa = PBXGroup;
+			children = (
+				CCA1DA1829B05D8A00D1026E /* AppDelegate.h */,
+				CCA1DA1929B05D8A00D1026E /* AppDelegate.m */,
+				CCA1DA1B29B05D8A00D1026E /* SceneDelegate.h */,
+				CCA1DA1C29B05D8A00D1026E /* SceneDelegate.m */,
+				CCA1DA1E29B05D8A00D1026E /* ViewController.h */,
+				CCA1DA1F29B05D8A00D1026E /* ViewController.m */,
+				CCA1DA2129B05D8A00D1026E /* Main.storyboard */,
+				CCA1DA2429B05D8A00D1026E /* Assets.xcassets */,
+				CCA1DA2629B05D8A00D1026E /* LaunchScreen.storyboard */,
+				CCA1DA2929B05D8A00D1026E /* Info.plist */,
+				CCA1DA2A29B05D8A00D1026E /* main.m */,
+			);
+			path = "example-swift-bridge-to-objectivec";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCA1DA1429B05D8A00D1026E /* example-swift-bridge-to-objectivec */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCA1DA2E29B05D8A00D1026E /* Build configuration list for PBXNativeTarget "example-swift-bridge-to-objectivec" */;
+			buildPhases = (
+				CCA1DA1129B05D8A00D1026E /* Sources */,
+				CCA1DA1229B05D8A00D1026E /* Frameworks */,
+				CCA1DA1329B05D8A00D1026E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "example-swift-bridge-to-objectivec";
+			packageProductDependencies = (
+				CCA1DA3229B05E6100D1026E /* DittoObjC */,
+				CCA1DA3429B05E6100D1026E /* DittoSwift */,
+			);
+			productName = "example-swift-bridge-to-objectivec";
+			productReference = CCA1DA1529B05D8A00D1026E /* example-swift-bridge-to-objectivec.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCA1DA0D29B05D8A00D1026E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CCA1DA1429B05D8A00D1026E = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CCA1DA1029B05D8A00D1026E /* Build configuration list for PBXProject "example-swift-bridge-to-objectivec" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCA1DA0C29B05D8A00D1026E;
+			packageReferences = (
+				CCA1DA3129B05E6100D1026E /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */,
+			);
+			productRefGroup = CCA1DA1629B05D8A00D1026E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCA1DA1429B05D8A00D1026E /* example-swift-bridge-to-objectivec */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCA1DA1329B05D8A00D1026E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1DA2829B05D8A00D1026E /* LaunchScreen.storyboard in Resources */,
+				CCA1DA2529B05D8A00D1026E /* Assets.xcassets in Resources */,
+				CCA1DA2329B05D8A00D1026E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCA1DA1129B05D8A00D1026E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCA1DA2029B05D8A00D1026E /* ViewController.m in Sources */,
+				CCA1DA1A29B05D8A00D1026E /* AppDelegate.m in Sources */,
+				CCA1DA2B29B05D8A00D1026E /* main.m in Sources */,
+				CCA1DA1D29B05D8A00D1026E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CCA1DA2129B05D8A00D1026E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA1DA2229B05D8A00D1026E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCA1DA2629B05D8A00D1026E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCA1DA2729B05D8A00D1026E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCA1DA2C29B05D8A00D1026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CCA1DA2D29B05D8A00D1026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCA1DA2F29B05D8A00D1026E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "example-swift-bridge-to-objectivec/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "live.ditto.example-swift-bridge-to-objectivec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CCA1DA3029B05D8A00D1026E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "example-swift-bridge-to-objectivec/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "live.ditto.example-swift-bridge-to-objectivec";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCA1DA1029B05D8A00D1026E /* Build configuration list for PBXProject "example-swift-bridge-to-objectivec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA1DA2C29B05D8A00D1026E /* Debug */,
+				CCA1DA2D29B05D8A00D1026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCA1DA2E29B05D8A00D1026E /* Build configuration list for PBXNativeTarget "example-swift-bridge-to-objectivec" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCA1DA2F29B05D8A00D1026E /* Debug */,
+				CCA1DA3029B05D8A00D1026E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CCA1DA3129B05E6100D1026E /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/getditto/DittoSwiftPackage";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CCA1DA3229B05E6100D1026E /* DittoObjC */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCA1DA3129B05E6100D1026E /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			productName = DittoObjC;
+		};
+		CCA1DA3429B05E6100D1026E /* DittoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CCA1DA3129B05E6100D1026E /* XCRemoteSwiftPackageReference "DittoSwiftPackage" */;
+			productName = DittoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = CCA1DA0D29B05D8A00D1026E /* Project object */;
+}

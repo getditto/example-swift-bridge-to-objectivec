@@ -1,0 +1,14 @@
+//
+//  AppDelegate.h
+//  example-swift-bridge-to-objectivec
+//
+//  Created by Shunsuke Kondo on 2023/03/02.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+
+@end
+

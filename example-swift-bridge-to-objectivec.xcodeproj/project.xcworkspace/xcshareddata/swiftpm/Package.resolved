@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "dittoswiftpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/getditto/DittoSwiftPackage",
+      "state" : {
+        "branch" : "main",
+        "revision" : "9304791eb54dc84913b76cdaf512cf267f5391f2"
+      }
+    }
+  ],
+  "version" : 2
+}
