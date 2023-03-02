@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC6ADDE229B06CC80088D142 /* DittoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6ADDE129B06CC80088D142 /* DittoManager.swift */; };
+		CC6ADDE429B06DE20088D142 /* ItemDittoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6ADDE329B06DE20088D142 /* ItemDittoModel.swift */; };
+		CC6ADDE629B074090088D142 /* NotificationCenterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC6ADDE529B074090088D142 /* NotificationCenterExtensions.swift */; };
 		CCA1DA1A29B05D8A00D1026E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA1929B05D8A00D1026E /* AppDelegate.m */; };
 		CCA1DA1D29B05D8A00D1026E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA1C29B05D8A00D1026E /* SceneDelegate.m */; };
 		CCA1DA2029B05D8A00D1026E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCA1DA1F29B05D8A00D1026E /* ViewController.m */; };
@@ -19,6 +22,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC6ADDE029B06CC80088D142 /* example-swift-bridge-to-objectivec-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "example-swift-bridge-to-objectivec-Bridging-Header.h"; sourceTree = "<group>"; };
+		CC6ADDE129B06CC80088D142 /* DittoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DittoManager.swift; sourceTree = "<group>"; };
+		CC6ADDE329B06DE20088D142 /* ItemDittoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDittoModel.swift; sourceTree = "<group>"; };
+		CC6ADDE529B074090088D142 /* NotificationCenterExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenterExtensions.swift; sourceTree = "<group>"; };
 		CCA1DA1529B05D8A00D1026E /* example-swift-bridge-to-objectivec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "example-swift-bridge-to-objectivec.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCA1DA1829B05D8A00D1026E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CCA1DA1929B05D8A00D1026E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +53,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC6ADDDF29B06CB10088D142 /* Ditto */ = {
+			isa = PBXGroup;
+			children = (
+				CC6ADDE129B06CC80088D142 /* DittoManager.swift */,
+				CC6ADDE329B06DE20088D142 /* ItemDittoModel.swift */,
+				CC6ADDE529B074090088D142 /* NotificationCenterExtensions.swift */,
+				CC6ADDE029B06CC80088D142 /* example-swift-bridge-to-objectivec-Bridging-Header.h */,
+			);
+			path = Ditto;
+			sourceTree = "<group>";
+		};
 		CCA1DA0C29B05D8A00D1026E = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +83,7 @@
 		CCA1DA1729B05D8A00D1026E /* example-swift-bridge-to-objectivec */ = {
 			isa = PBXGroup;
 			children = (
+				CC6ADDDF29B06CB10088D142 /* Ditto */,
 				CCA1DA1829B05D8A00D1026E /* AppDelegate.h */,
 				CCA1DA1929B05D8A00D1026E /* AppDelegate.m */,
 				CCA1DA1B29B05D8A00D1026E /* SceneDelegate.h */,
@@ -115,6 +134,7 @@
 				TargetAttributes = {
 					CCA1DA1429B05D8A00D1026E = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -161,6 +181,9 @@
 				CCA1DA1A29B05D8A00D1026E /* AppDelegate.m in Sources */,
 				CCA1DA2B29B05D8A00D1026E /* main.m in Sources */,
 				CCA1DA1D29B05D8A00D1026E /* SceneDelegate.m in Sources */,
+				CC6ADDE429B06DE20088D142 /* ItemDittoModel.swift in Sources */,
+				CC6ADDE229B06CC80088D142 /* DittoManager.swift in Sources */,
+				CC6ADDE629B074090088D142 /* NotificationCenterExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,8 +324,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "example-swift-bridge-to-objectivec/Info.plist";
@@ -319,6 +344,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "live.ditto.example-swift-bridge-to-objectivec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "example-swift-bridge-to-objectivec/Ditto/example-swift-bridge-to-objectivec-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -328,8 +356,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 3T2VMFZPPQ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "example-swift-bridge-to-objectivec/Info.plist";
@@ -346,6 +376,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "live.ditto.example-swift-bridge-to-objectivec";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "example-swift-bridge-to-objectivec/Ditto/example-swift-bridge-to-objectivec-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
